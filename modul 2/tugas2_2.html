@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pendaftaran</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  <form id="registrationForm" onsubmit="return validateForm()">
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama lengkap"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Masukkan email"><br><br>
+
+    <label for="alamat">Alamat:</label>
+    <textarea id="alamat" placeholder="Masukkan alamat"></textarea><br><br>
+
+    <input type="submit" value="Daftar">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

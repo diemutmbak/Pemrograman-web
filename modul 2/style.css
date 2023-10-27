@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #3498db; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #2980b9; /* Warna latar belakang kolom pendaftaran biru */
+    padding: 20px;
+    border-radius: 10px; /* Rounding sudut */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: calc(100% - 5px); /* Lebar input dengan padding dikurangi */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #2ecc71; /* Warna latar belakang tombol daftar hijau */
+    color: white; /* Warna teks putih */
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #27ae60; /* Warna latar belakang tombol daftar hijau lebih gelap saat dihover */
+  }
+  
+  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1 class="title">
+        To Do List
+    </h1>
+
+    <div class="todo-list">
+        <div class="list-head">
+            <input type="text" class="entered-list">
+            <button class="add-list"> Add </button>
+        </div>
+
+        <div class="task">
+            <!-- Modified item structure with an edit input -->
+            <div class="item">
+                <p class="task-text">new item here</p>
+                <input type="text" class="edit-input" style="display: none;">
+                <div class="item-btn">
+                    <i class="fa-solid fa-pen-to-square edit-btn"></i>
+                    <i class="fa-solid fa-xmark delete-btn"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
