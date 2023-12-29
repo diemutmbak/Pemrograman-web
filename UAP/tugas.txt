@@ -1,0 +1,9 @@
+1. buat sebuah aplikasi menggunakan javascript dan html. membuat transasksi penjualan dan pembelian barang dengan alur sebagai berikut.
+kode / nama barang / harga
+
+-User menginputkan dari html data kode dan banyaknya barang yang akan di beli
+-setelah user memasukan kode dan banyaknya barang tersebut aplikasi akan mengeluarkan total yang harus di bayar berdasarkan harga dan kode yang dipilih
+menggunakan windows alert
+-kemudian ketika di klik ok makan akan di sajikan uang yang akan dibayarkan oleh user dengan menginputkan jumlah uang yang akan dibayar
+menggunakan windows allert
+-setelah di klik ok maka akan muncul total kembalian
